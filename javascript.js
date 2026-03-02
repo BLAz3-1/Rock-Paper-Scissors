@@ -12,4 +12,7 @@ function getComputerChoice() {
   }
 }
 
-console.log(getComputerChoice());
+function getHumanChoice() {
+  return prompt("Pick between rock, paper and scissor");
+}
+
